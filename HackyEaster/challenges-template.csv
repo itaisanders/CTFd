@@ -1,0 +1,5 @@
+name,description,category,value,type,state,max_attempts,flags,tags,hints,type_data
+challenge1,challenge description,category1,100,standard,hidden,0,flag1,,,
+challenge2,challenge description,category2,100,standard,visible,0,"flag1,flag2",,,
+challenge3,challenge description,category3,100,dynamic,visible,0,"flag1,flag2,flag3","tag1,tag2,tag3","hint1,hint2,hint3","{""initial"":100, ""minimum"":10, ""decay"":10}"
+challenge4,challenge description,category4,500,dynamic,visible,0,"flag1,flag2,flag3","tag1,tag2,tag3","hint1,hint2,hint3","{""initial"":500, ""minimum"":100, ""decay"":50}"
