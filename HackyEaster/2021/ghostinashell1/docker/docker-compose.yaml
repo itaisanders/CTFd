@@ -4,8 +4,8 @@ services:
     build: .
     image: he2021/ghostinashell1
     restart: always
-#    networks:
-#      - challengenet
+    networks:
+      - challengenet
     ports:
       - "2106:22"
     environment:

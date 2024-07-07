@@ -4,13 +4,13 @@ services:
     build: .
     image: he2021/lotl
     restart: always
-#    networks:
-#      - challengenet
+    networks:
+      - challengenet
     ports:
       - "2102:1024"
     stdin_open: true
     tty: true
-#    restart: always
+    #restart: always
     entrypoint: ./ynetd
     command: ./challenge1
 networks:

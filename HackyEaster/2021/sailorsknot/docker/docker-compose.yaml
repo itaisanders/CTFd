@@ -4,8 +4,8 @@ services:
     build: .
     image: he2021/sailorsknot
     restart: always
-#    networks:
-#      - challengenet
+    networks:
+      - challengenet
     ports:
       - "2112:1024"
     stdin_open: true
