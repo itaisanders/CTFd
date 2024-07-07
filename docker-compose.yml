@@ -32,7 +32,7 @@ services:
     volumes:
       - ./conf/nginx/http.conf:/etc/nginx/nginx.conf
     ports:
-      - 80:80
+      - 79:79
     depends_on:
       - ctfd
 
